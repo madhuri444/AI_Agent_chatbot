@@ -10,8 +10,8 @@ from langgraph.prebuilt import create_react_agent
 load_dotenv()
 #TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 #groq_api_key = os.getenv("GROQ_API_KEY")
-groq_api_key = "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"  # Groq API key
-os.environ["TAVILY_API_KEY"] = "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"
+groq_api_key = "Your groq api key"  # Groq API key
+os.environ["TAVILY_API_KEY"] = "Your tavily api key"
 MODEL_NAMES= [
     "llama3-70b-8192",
     "mixtral-8x7b-32768"
